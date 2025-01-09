@@ -1,0 +1,32 @@
+[ 2024-12-31 14:16:11,479 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2024-12-31 14:16:11,479 ] 30 root - INFO - yaml file: params.yaml loaded successfully
+[ 2024-12-31 14:16:11,486 ] 30 root - INFO - yaml file: schema.yaml loaded successfully
+[ 2024-12-31 14:16:11,488 ] 50 root - INFO - created directory at: artifacts
+[ 2024-12-31 14:16:11,488 ] 50 root - INFO - created directory at: artifacts/data_ingestion
+[ 2024-12-31 14:16:12,524 ] 25 root - INFO - artifacts/data_ingestion\heart_attack_analysis.csv downloaded successfully with the following info:
+Connection: close
+Content-Length: 11328
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "14fb4f70b342a786864ca590d89f54eeb2c0e2a28591e2f5e92f2c0f18c3572f"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C8A1:206B06:62BE7B:922EE2:6773AF54
+Accept-Ranges: bytes
+Date: Tue, 31 Dec 2024 08:46:12 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100020-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1735634773.566784,VS0,VE279
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b37979e9215e0cc965e741dd8857917cebd10fe5
+Expires: Tue, 31 Dec 2024 08:51:12 GMT
+Source-Age: 0
+
+

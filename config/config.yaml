@@ -1,0 +1,6 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_url: https://raw.githubusercontent.com/artimus07/HeartAttackAnalysis/main/heart_attack_analysis.csv
+  local_data_file: heart_attack_analysis.csv

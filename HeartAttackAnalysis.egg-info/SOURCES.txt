@@ -1,0 +1,7 @@
+README.md
+setup.py
+HeartAttackAnalysis.egg-info/PKG-INFO
+HeartAttackAnalysis.egg-info/SOURCES.txt
+HeartAttackAnalysis.egg-info/dependency_links.txt
+HeartAttackAnalysis.egg-info/requires.txt
+HeartAttackAnalysis.egg-info/top_level.txt
