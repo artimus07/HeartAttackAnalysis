@@ -1,0 +1,5 @@
+[ 2025-01-09 21:26:50,006 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2025-01-09 21:26:50,009 ] 30 root - INFO - yaml file: params.yaml loaded successfully
+[ 2025-01-09 21:26:50,018 ] 30 root - INFO - yaml file: schema.yaml loaded successfully
+[ 2025-01-09 21:26:50,020 ] 50 root - INFO - created directory at: artifacts
+[ 2025-01-09 21:26:50,020 ] 50 root - INFO - created directory at: artifacts/data_validation
