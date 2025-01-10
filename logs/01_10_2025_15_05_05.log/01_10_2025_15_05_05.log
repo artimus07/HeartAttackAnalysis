@@ -1,0 +1,56 @@
+[ 2025-01-10 15:05:07,597 ] 11 root - INFO - >>>>>>> stage Data Ingestion Stage started
+[ 2025-01-10 15:05:07,600 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2025-01-10 15:05:07,602 ] 30 root - INFO - yaml file: params.yaml loaded successfully
+[ 2025-01-10 15:05:07,605 ] 30 root - INFO - yaml file: schema.yaml loaded successfully
+[ 2025-01-10 15:05:07,605 ] 50 root - INFO - created directory at: artifacts
+[ 2025-01-10 15:05:07,606 ] 50 root - INFO - created directory at: artifacts/data_ingestion
+[ 2025-01-10 15:05:08,473 ] 30 root - INFO - artifacts/data_ingestion\heart_attack_analysis.csv downloaded successfully with the following info:
+Connection: close
+Content-Length: 21962
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "f6750b91cd3481db5bbbc899be383f7872df7336f9c421ffbf1f2cc54d070dc9"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2C86:3D4B29:A003F:F6EA7:6780E81B
+Accept-Ranges: bytes
+Date: Fri, 10 Jan 2025 09:35:07 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100021-HYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1736501707.422328,VS0,VE284
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 389d3a6d46f20577a38fd35358444f2a28c91e07
+Expires: Fri, 10 Jan 2025 09:40:07 GMT
+Source-Age: 0
+
+
+[ 2025-01-10 15:05:08,474 ] 14 root - INFO - >>>>> stage Data Ingestion Stage completed
+[ 2025-01-10 15:05:08,474 ] 21 root - INFO - >>>>>>> stage Data Validation stage started
+[ 2025-01-10 15:05:08,474 ] 14 root - INFO - >>>>>>>> stage Data Validation started
+[ 2025-01-10 15:05:08,480 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2025-01-10 15:05:08,482 ] 30 root - INFO - yaml file: params.yaml loaded successfully
+[ 2025-01-10 15:05:08,487 ] 30 root - INFO - yaml file: schema.yaml loaded successfully
+[ 2025-01-10 15:05:08,488 ] 50 root - INFO - created directory at: artifacts
+[ 2025-01-10 15:05:08,488 ] 50 root - INFO - created directory at: artifacts/data_validation
+[ 2025-01-10 15:05:08,507 ] 18 root - INFO - >>>>> stage Data Validation completed
+[ 2025-01-10 15:05:08,507 ] 24 root - INFO - >>>>> stage Data Validation stage completed
+[ 2025-01-10 15:05:08,507 ] 30 root - INFO - >>>>>>> stage Data Transformation stage started
+[ 2025-01-10 15:05:08,507 ] 16 root - INFO - >>>>>>>> stage Data Transformation started
+[ 2025-01-10 15:05:08,509 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2025-01-10 15:05:08,510 ] 30 root - INFO - yaml file: params.yaml loaded successfully
+[ 2025-01-10 15:05:08,513 ] 30 root - INFO - yaml file: schema.yaml loaded successfully
+[ 2025-01-10 15:05:08,513 ] 50 root - INFO - created directory at: artifacts
+[ 2025-01-10 15:05:08,514 ] 50 root - INFO - created directory at: artifacts/data_transformation
+[ 2025-01-10 15:05:08,516 ] 33 root - INFO - Enter the detect_and_remove_outliers in DataTransformation class
+[ 2025-01-10 15:05:08,521 ] 17 root - INFO - Enter the scale_numerical_data in DataTransformation class
+[ 2025-01-10 15:05:08,525 ] 24 root - INFO - Enter the add_target_column in DataTransformation class
+[ 2025-01-10 15:05:08,527 ] 49 root - INFO - Enter the encode_categorical_data in DataTransformation class
+[ 2025-01-10 15:05:08,567 ] 37 root - INFO - >>>>> stage Data Transformation completed
+[ 2025-01-10 15:05:08,567 ] 33 root - INFO - >>>>> stage Data Transformation stage completed

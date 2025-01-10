@@ -1,0 +1,5 @@
+[ 2025-01-10 13:39:51,063 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2025-01-10 13:39:51,067 ] 30 root - INFO - yaml file: params.yaml loaded successfully
+[ 2025-01-10 13:39:51,072 ] 30 root - INFO - yaml file: schema.yaml loaded successfully
+[ 2025-01-10 13:39:51,073 ] 50 root - INFO - created directory at: artifacts
+[ 2025-01-10 13:39:51,073 ] 50 root - INFO - created directory at: artifacts/data_transformation

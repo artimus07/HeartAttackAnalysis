@@ -9,3 +9,7 @@ data_validation:
   root_dir: artifacts/data_validation
   DATA_FILE: "D:/HeartAttackAnalysis/artifacts/data_ingestion/heart_attack_analysis.csv"
   STATUS_FILE: artifacts/data_validation/status.txt
+
+data_transformation:
+  root_dir: artifacts/data_transformation
+  data_path: D:/HeartAttackAnalysis/artifacts/data_ingestion/heart_attack_analysis.csv

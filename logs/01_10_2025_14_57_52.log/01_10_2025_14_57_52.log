@@ -1,0 +1,40 @@
+[ 2025-01-10 14:57:56,496 ] 11 root - INFO - >>>>>>> stage Data Ingestion Stage started
+[ 2025-01-10 14:57:56,500 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2025-01-10 14:57:56,504 ] 30 root - INFO - yaml file: params.yaml loaded successfully
+[ 2025-01-10 14:57:56,507 ] 30 root - INFO - yaml file: schema.yaml loaded successfully
+[ 2025-01-10 14:57:56,508 ] 50 root - INFO - created directory at: artifacts
+[ 2025-01-10 14:57:56,508 ] 50 root - INFO - created directory at: artifacts/data_ingestion
+[ 2025-01-10 14:57:57,501 ] 30 root - INFO - artifacts/data_ingestion\heart_attack_analysis.csv downloaded successfully with the following info:
+Connection: close
+Content-Length: 21962
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "f6750b91cd3481db5bbbc899be383f7872df7336f9c421ffbf1f2cc54d070dc9"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2C86:3D4B29:A003F:F6EA7:6780E81B
+Accept-Ranges: bytes
+Date: Fri, 10 Jan 2025 09:27:56 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100021-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1736501276.387193,VS0,VE350
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6408eed4178bdb1c11dc53b783c29e648be68a87
+Expires: Fri, 10 Jan 2025 09:32:56 GMT
+Source-Age: 0
+
+
+[ 2025-01-10 14:57:57,502 ] 14 root - INFO - >>>>> stage Data Ingestion Stage completed
+[ 2025-01-10 14:57:57,503 ] 21 root - INFO - >>>>>>> stage Data Validation stage started
+[ 2025-01-10 14:57:57,503 ] 26 root - ERROR - DataValidationPipeline.__init__() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "d:\HeartAttackAnalysis\main.py", line 22, in <module>
+    data_validation = DataValidationPipeline()
+TypeError: DataValidationPipeline.__init__() takes 0 positional arguments but 1 was given

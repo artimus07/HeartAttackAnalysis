@@ -1,0 +1,6 @@
+[ 2025-01-10 13:45:55,074 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2025-01-10 13:45:55,076 ] 30 root - INFO - yaml file: params.yaml loaded successfully
+[ 2025-01-10 13:45:55,081 ] 30 root - INFO - yaml file: schema.yaml loaded successfully
+[ 2025-01-10 13:45:55,082 ] 50 root - INFO - created directory at: artifacts
+[ 2025-01-10 13:45:55,083 ] 50 root - INFO - created directory at: artifacts/data_transformation
+[ 2025-01-10 13:45:55,090 ] 7 root - INFO - Enter the scaled_numerical_data in DataTransformation class

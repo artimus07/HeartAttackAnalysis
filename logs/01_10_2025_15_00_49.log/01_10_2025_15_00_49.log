@@ -1,0 +1,9 @@
+[ 2025-01-10 15:00:52,858 ] 11 root - INFO - >>>>>>> stage Data Ingestion Stage started
+[ 2025-01-10 15:00:52,862 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2025-01-10 15:00:52,863 ] 30 root - INFO - yaml file: params.yaml loaded successfully
+[ 2025-01-10 15:00:52,866 ] 30 root - INFO - yaml file: schema.yaml loaded successfully
+[ 2025-01-10 15:00:52,867 ] 50 root - INFO - created directory at: artifacts
+[ 2025-01-10 15:00:52,867 ] 50 root - INFO - created directory at: artifacts/data_ingestion
+[ 2025-01-10 15:00:52,868 ] 35 root - INFO - File already exists at artifacts/data_ingestion\heart_attack_analysis.csv
+[ 2025-01-10 15:00:52,868 ] 14 root - INFO - >>>>> stage Data Ingestion Stage completed
+[ 2025-01-10 15:00:52,868 ] 21 root - INFO - >>>>>>> stage Data Validation stage started

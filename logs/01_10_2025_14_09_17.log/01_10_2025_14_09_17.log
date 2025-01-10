@@ -1,0 +1,10 @@
+[ 2025-01-10 14:09:20,026 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2025-01-10 14:09:20,027 ] 30 root - INFO - yaml file: params.yaml loaded successfully
+[ 2025-01-10 14:09:20,032 ] 30 root - INFO - yaml file: schema.yaml loaded successfully
+[ 2025-01-10 14:09:20,033 ] 50 root - INFO - created directory at: artifacts
+[ 2025-01-10 14:09:20,033 ] 50 root - INFO - created directory at: artifacts/data_transformation
+[ 2025-01-10 14:09:20,037 ] 23 root - INFO - Enter the detect_and_remove_outliers in DataTransformation class
+[ 2025-01-10 14:09:20,068 ] 7 root - INFO - Enter the scale_numerical_data in DataTransformation class
+[ 2025-01-10 14:09:20,072 ] 14 root - INFO - Enter the add_target_column in DataTransformation class
+[ 2025-01-10 14:09:20,078 ] 39 root - INFO - Enter the encode_categorical_data in DataTransformation class
+[ 2025-01-10 14:09:20,079 ] 22 root - ERROR - An unexpected error occurred: "None of [Index(['sex', 'cp', 'fbs', 'restecg', 'exang', 'slope', 'ca', 'thal'], dtype='object')] are in the [columns]"

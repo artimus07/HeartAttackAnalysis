@@ -1,0 +1,9 @@
+[ 2025-01-10 14:10:56,529 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2025-01-10 14:10:56,531 ] 30 root - INFO - yaml file: params.yaml loaded successfully
+[ 2025-01-10 14:10:56,535 ] 30 root - INFO - yaml file: schema.yaml loaded successfully
+[ 2025-01-10 14:10:56,536 ] 50 root - INFO - created directory at: artifacts
+[ 2025-01-10 14:10:56,536 ] 50 root - INFO - created directory at: artifacts/data_transformation
+[ 2025-01-10 14:10:56,542 ] 23 root - INFO - Enter the detect_and_remove_outliers in DataTransformation class
+[ 2025-01-10 14:10:56,549 ] 7 root - INFO - Enter the scale_numerical_data in DataTransformation class
+[ 2025-01-10 14:10:56,556 ] 14 root - INFO - Enter the add_target_column in DataTransformation class
+[ 2025-01-10 14:10:56,564 ] 39 root - INFO - Enter the encode_categorical_data in DataTransformation class

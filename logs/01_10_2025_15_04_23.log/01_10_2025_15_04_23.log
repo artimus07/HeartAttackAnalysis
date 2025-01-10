@@ -1,0 +1,30 @@
+[ 2025-01-10 15:04:26,036 ] 11 root - INFO - >>>>>>> stage Data Ingestion Stage started
+[ 2025-01-10 15:04:26,039 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2025-01-10 15:04:26,040 ] 30 root - INFO - yaml file: params.yaml loaded successfully
+[ 2025-01-10 15:04:26,043 ] 30 root - INFO - yaml file: schema.yaml loaded successfully
+[ 2025-01-10 15:04:26,044 ] 50 root - INFO - created directory at: artifacts
+[ 2025-01-10 15:04:26,044 ] 50 root - INFO - created directory at: artifacts/data_ingestion
+[ 2025-01-10 15:04:26,044 ] 35 root - INFO - File already exists at artifacts/data_ingestion\heart_attack_analysis.csv
+[ 2025-01-10 15:04:26,044 ] 14 root - INFO - >>>>> stage Data Ingestion Stage completed
+[ 2025-01-10 15:04:26,045 ] 21 root - INFO - >>>>>>> stage Data Validation stage started
+[ 2025-01-10 15:04:26,045 ] 14 root - INFO - >>>>>>>> stage Data Validation started
+[ 2025-01-10 15:04:26,047 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2025-01-10 15:04:26,048 ] 30 root - INFO - yaml file: params.yaml loaded successfully
+[ 2025-01-10 15:04:26,050 ] 30 root - INFO - yaml file: schema.yaml loaded successfully
+[ 2025-01-10 15:04:26,050 ] 50 root - INFO - created directory at: artifacts
+[ 2025-01-10 15:04:26,051 ] 50 root - INFO - created directory at: artifacts/data_validation
+[ 2025-01-10 15:04:26,067 ] 18 root - INFO - >>>>> stage Data Validation completed
+[ 2025-01-10 15:04:26,067 ] 24 root - INFO - >>>>> stage Data Validation stage completed
+[ 2025-01-10 15:04:26,067 ] 30 root - INFO - >>>>>>> stage Data Transformation stage started
+[ 2025-01-10 15:04:26,068 ] 16 root - INFO - >>>>>>>> stage Data Transformation started
+[ 2025-01-10 15:04:26,070 ] 30 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2025-01-10 15:04:26,071 ] 30 root - INFO - yaml file: params.yaml loaded successfully
+[ 2025-01-10 15:04:26,074 ] 30 root - INFO - yaml file: schema.yaml loaded successfully
+[ 2025-01-10 15:04:26,074 ] 50 root - INFO - created directory at: artifacts
+[ 2025-01-10 15:04:26,075 ] 50 root - INFO - created directory at: artifacts/data_transformation
+[ 2025-01-10 15:04:26,077 ] 33 root - INFO - Enter the detect_and_remove_outliers in DataTransformation class
+[ 2025-01-10 15:04:26,093 ] 17 root - INFO - Enter the scale_numerical_data in DataTransformation class
+[ 2025-01-10 15:04:26,101 ] 24 root - INFO - Enter the add_target_column in DataTransformation class
+[ 2025-01-10 15:04:26,109 ] 49 root - INFO - Enter the encode_categorical_data in DataTransformation class
+[ 2025-01-10 15:04:26,145 ] 37 root - INFO - >>>>> stage Data Transformation completed
+[ 2025-01-10 15:04:26,146 ] 33 root - INFO - >>>>> stage Data Transformation stage completed

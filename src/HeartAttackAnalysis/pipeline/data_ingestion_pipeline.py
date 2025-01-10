@@ -1,4 +1,4 @@
-from src.HeartAttackAnalysis.config.configuration import ConfigurationManager
+from src.HeartAttackAnalysis.config.configuration import DataIngestionConfigurationManager
 from src.HeartAttackAnalysis.components.data_ingestion import DataIngestion
 from src.HeartAttackAnalysis.logging.logger import logging
 from src.HeartAttackAnalysis.exception.exception import HeartAttackAnalysisException
@@ -10,7 +10,7 @@ class DataIngestionPipeline:
         pass
 
     def initiate_data_ingestion(self):
-        config = ConfigurationManager()
+        config = DataIngestionConfigurationManager()
         data_ingestion_config = config.get_data_ingestion_config()
         data_ingestion = DataIngestion(config = data_ingestion_config)
         data_ingestion.download_file()
